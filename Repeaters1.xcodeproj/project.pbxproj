@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E0D9DA215DCABE3004D44A5 /* Repeater.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E0D9DA115DCABE3004D44A5 /* Repeater.m */; };
+		5E0D9DA615DCABE3004D44A5 /* Deadline.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E0D9DA515DCABE3004D44A5 /* Deadline.m */; };
+		5E2A613F15DE1B8100E06DAC /* FormatController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E2A613E15DE1B8100E06DAC /* FormatController.m */; };
+		5E33261B15C6683F00B01112 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E33261A15C6683F00B01112 /* CoreData.framework */; };
+		5E45F8AC15CA2D6C00B3AE8F /* AddRepeaterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E45F8AB15CA2D6C00B3AE8F /* AddRepeaterViewController.m */; };
+		5E5E208415E1FF1F0049AB1E /* DateBrain.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E5E208315E1FF1F0049AB1E /* DateBrain.m */; };
+		5E5F408C15FF205F00C8708B /* BlackRainbowCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E5F408A15FF205F00C8708B /* BlackRainbowCircle.png */; };
+		5E5F408D15FF205F00C8708B /* RepeatersLaunchIMG.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E5F408B15FF205F00C8708B /* RepeatersLaunchIMG.png */; };
+		5EA12B2915BD1E7E0079C689 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EA12B2815BD1E7E0079C689 /* UIKit.framework */; };
+		5EA12B2B15BD1E7E0079C689 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EA12B2A15BD1E7E0079C689 /* Foundation.framework */; };
+		5EA12B2D15BD1E7E0079C689 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EA12B2C15BD1E7E0079C689 /* CoreGraphics.framework */; };
+		5EA12B3315BD1E7E0079C689 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5EA12B3115BD1E7E0079C689 /* InfoPlist.strings */; };
+		5EA12B3515BD1E7E0079C689 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA12B3415BD1E7E0079C689 /* main.m */; };
+		5EA12B3915BD1E7E0079C689 /* RepeatersAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA12B3815BD1E7E0079C689 /* RepeatersAppDelegate.m */; };
+		5EA12B3C15BD1E7E0079C689 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EA12B3A15BD1E7E0079C689 /* MainStoryboard.storyboard */; };
+		5EA12B3F15BD1E7E0079C689 /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA12B3E15BD1E7E0079C689 /* DetailsViewController.m */; };
+		5ED271AE15F5DF4F0080897A /* AboutRepeatersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ED271AD15F5DF4F0080897A /* AboutRepeatersViewController.m */; };
+		5EDC9CAC15C258B900EABCCE /* CoreDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EDC9CAB15C258B900EABCCE /* CoreDataTableViewController.m */; };
+		5EDC9CB015C25BC600EABCCE /* RepeatersTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EDC9CAF15C25BC600EABCCE /* RepeatersTableViewController.m */; };
+		5EDC9CB315C25C6400EABCCE /* EditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EDC9CB215C25C6400EABCCE /* EditorViewController.m */; };
+		5EDC9CB615C25D6A00EABCCE /* DayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EDC9CB515C25D6A00EABCCE /* DayViewController.m */; };
+		5EDC9CB915C25EA300EABCCE /* DeadlineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EDC9CB815C25EA300EABCCE /* DeadlineViewController.m */; };
+		5EDC9CBC15C25F0600EABCCE /* NotifyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EDC9CBB15C25F0600EABCCE /* NotifyTableViewController.m */; };
+		5EDC9CBF15C274FE00EABCCE /* RepeatReminders.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5EDC9CBD15C274FE00EABCCE /* RepeatReminders.xcdatamodeld */; };
+		5EDC9CCE15C27D0200EABCCE /* Deadline+Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EDC9CCD15C27D0200EABCCE /* Deadline+Settings.m */; };
+		5EDC9CD115C27D7200EABCCE /* Repeater+Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EDC9CD015C27D7200EABCCE /* Repeater+Settings.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5E0D9DA015DCABE3004D44A5 /* Repeater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Repeater.h; sourceTree = "<group>"; };
+		5E0D9DA115DCABE3004D44A5 /* Repeater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Repeater.m; sourceTree = "<group>"; };
+		5E0D9DA415DCABE3004D44A5 /* Deadline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deadline.h; sourceTree = "<group>"; };
+		5E0D9DA515DCABE3004D44A5 /* Deadline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deadline.m; sourceTree = "<group>"; };
+		5E2A613D15DE1B8100E06DAC /* FormatController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FormatController.h; sourceTree = "<group>"; };
+		5E2A613E15DE1B8100E06DAC /* FormatController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FormatController.m; sourceTree = "<group>"; };
+		5E33261A15C6683F00B01112 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		5E45F8AA15CA2D6C00B3AE8F /* AddRepeaterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddRepeaterViewController.h; sourceTree = "<group>"; };
+		5E45F8AB15CA2D6C00B3AE8F /* AddRepeaterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddRepeaterViewController.m; sourceTree = "<group>"; };
+		5E5E208215E1FF1F0049AB1E /* DateBrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateBrain.h; sourceTree = "<group>"; };
+		5E5E208315E1FF1F0049AB1E /* DateBrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateBrain.m; sourceTree = "<group>"; };
+		5E5F408A15FF205F00C8708B /* BlackRainbowCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BlackRainbowCircle.png; sourceTree = "<group>"; };
+		5E5F408B15FF205F00C8708B /* RepeatersLaunchIMG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RepeatersLaunchIMG.png; sourceTree = "<group>"; };
+		5EA12B2415BD1E7E0079C689 /* Repeaters1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Repeaters1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EA12B2815BD1E7E0079C689 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5EA12B2A15BD1E7E0079C689 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5EA12B2C15BD1E7E0079C689 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5EA12B3015BD1E7E0079C689 /* Repeaters-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Repeaters-Info.plist"; sourceTree = "<group>"; };
+		5EA12B3215BD1E7E0079C689 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5EA12B3415BD1E7E0079C689 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5EA12B3715BD1E7E0079C689 /* RepeatersAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RepeatersAppDelegate.h; sourceTree = "<group>"; };
+		5EA12B3815BD1E7E0079C689 /* RepeatersAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RepeatersAppDelegate.m; sourceTree = "<group>"; };
+		5EA12B3B15BD1E7E0079C689 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		5EA12B3D15BD1E7E0079C689 /* DetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
+		5EA12B3E15BD1E7E0079C689 /* DetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
+		5EA2087D15F9E4A800B53933 /* Repeaters-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Repeaters-Prefix.pch"; sourceTree = "<group>"; };
+		5ED271AC15F5DF4F0080897A /* AboutRepeatersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutRepeatersViewController.h; sourceTree = "<group>"; };
+		5ED271AD15F5DF4F0080897A /* AboutRepeatersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutRepeatersViewController.m; sourceTree = "<group>"; };
+		5EDC9CAA15C258B900EABCCE /* CoreDataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataTableViewController.h; sourceTree = "<group>"; };
+		5EDC9CAB15C258B900EABCCE /* CoreDataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataTableViewController.m; sourceTree = "<group>"; };
+		5EDC9CAE15C25BC600EABCCE /* RepeatersTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RepeatersTableViewController.h; sourceTree = "<group>"; };
+		5EDC9CAF15C25BC600EABCCE /* RepeatersTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RepeatersTableViewController.m; sourceTree = "<group>"; };
+		5EDC9CB115C25C6400EABCCE /* EditorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditorViewController.h; sourceTree = "<group>"; };
+		5EDC9CB215C25C6400EABCCE /* EditorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditorViewController.m; sourceTree = "<group>"; };
+		5EDC9CB415C25D6A00EABCCE /* DayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DayViewController.h; sourceTree = "<group>"; };
+		5EDC9CB515C25D6A00EABCCE /* DayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DayViewController.m; sourceTree = "<group>"; };
+		5EDC9CB715C25EA300EABCCE /* DeadlineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeadlineViewController.h; sourceTree = "<group>"; };
+		5EDC9CB815C25EA300EABCCE /* DeadlineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeadlineViewController.m; sourceTree = "<group>"; };
+		5EDC9CBA15C25F0600EABCCE /* NotifyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotifyTableViewController.h; sourceTree = "<group>"; };
+		5EDC9CBB15C25F0600EABCCE /* NotifyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotifyTableViewController.m; sourceTree = "<group>"; };
+		5EDC9CBE15C274FE00EABCCE /* RepeatReminders.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RepeatReminders.xcdatamodel; sourceTree = "<group>"; };
+		5EDC9CCC15C27D0200EABCCE /* Deadline+Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Deadline+Settings.h"; sourceTree = "<group>"; };
+		5EDC9CCD15C27D0200EABCCE /* Deadline+Settings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Deadline+Settings.m"; sourceTree = "<group>"; };
+		5EDC9CCF15C27D7200EABCCE /* Repeater+Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Repeater+Settings.h"; sourceTree = "<group>"; };
+		5EDC9CD015C27D7200EABCCE /* Repeater+Settings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Repeater+Settings.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5EA12B2115BD1E7E0079C689 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E33261B15C6683F00B01112 /* CoreData.framework in Frameworks */,
+				5EA12B2915BD1E7E0079C689 /* UIKit.framework in Frameworks */,
+				5EA12B2B15BD1E7E0079C689 /* Foundation.framework in Frameworks */,
+				5EA12B2D15BD1E7E0079C689 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E96792815F7330700330DA9 /* ui_testing */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ui_testing;
+			sourceTree = SOURCE_ROOT;
+		};
+		5EA12B1915BD1E7E0079C689 = {
+			isa = PBXGroup;
+			children = (
+				5EA12B2E15BD1E7E0079C689 /* Repeaters1 */,
+				5EA12B2715BD1E7E0079C689 /* Frameworks */,
+				5EA12B2515BD1E7E0079C689 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5EA12B2515BD1E7E0079C689 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5EA12B2415BD1E7E0079C689 /* Repeaters1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5EA12B2715BD1E7E0079C689 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E33261A15C6683F00B01112 /* CoreData.framework */,
+				5EA12B2815BD1E7E0079C689 /* UIKit.framework */,
+				5EA12B2A15BD1E7E0079C689 /* Foundation.framework */,
+				5EA12B2C15BD1E7E0079C689 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5EA12B2E15BD1E7E0079C689 /* Repeaters1 */ = {
+			isa = PBXGroup;
+			children = (
+				5EA12B3715BD1E7E0079C689 /* RepeatersAppDelegate.h */,
+				5EA12B3815BD1E7E0079C689 /* RepeatersAppDelegate.m */,
+				5E0D9DA415DCABE3004D44A5 /* Deadline.h */,
+				5E0D9DA515DCABE3004D44A5 /* Deadline.m */,
+				5EDC9CCC15C27D0200EABCCE /* Deadline+Settings.h */,
+				5EDC9CCD15C27D0200EABCCE /* Deadline+Settings.m */,
+				5E0D9DA015DCABE3004D44A5 /* Repeater.h */,
+				5E0D9DA115DCABE3004D44A5 /* Repeater.m */,
+				5EDC9CCF15C27D7200EABCCE /* Repeater+Settings.h */,
+				5EDC9CD015C27D7200EABCCE /* Repeater+Settings.m */,
+				5E45F8AA15CA2D6C00B3AE8F /* AddRepeaterViewController.h */,
+				5E45F8AB15CA2D6C00B3AE8F /* AddRepeaterViewController.m */,
+				5EDC9CAE15C25BC600EABCCE /* RepeatersTableViewController.h */,
+				5EDC9CAF15C25BC600EABCCE /* RepeatersTableViewController.m */,
+				5EA12B3D15BD1E7E0079C689 /* DetailsViewController.h */,
+				5EA12B3E15BD1E7E0079C689 /* DetailsViewController.m */,
+				5EDC9CB115C25C6400EABCCE /* EditorViewController.h */,
+				5EDC9CB215C25C6400EABCCE /* EditorViewController.m */,
+				5EDC9CB415C25D6A00EABCCE /* DayViewController.h */,
+				5EDC9CB515C25D6A00EABCCE /* DayViewController.m */,
+				5EDC9CB715C25EA300EABCCE /* DeadlineViewController.h */,
+				5EDC9CB815C25EA300EABCCE /* DeadlineViewController.m */,
+				5EDC9CBA15C25F0600EABCCE /* NotifyTableViewController.h */,
+				5EDC9CBB15C25F0600EABCCE /* NotifyTableViewController.m */,
+				5ED271AC15F5DF4F0080897A /* AboutRepeatersViewController.h */,
+				5ED271AD15F5DF4F0080897A /* AboutRepeatersViewController.m */,
+				5E2A613D15DE1B8100E06DAC /* FormatController.h */,
+				5E2A613E15DE1B8100E06DAC /* FormatController.m */,
+				5E5E208215E1FF1F0049AB1E /* DateBrain.h */,
+				5E5E208315E1FF1F0049AB1E /* DateBrain.m */,
+				5EA12B3A15BD1E7E0079C689 /* MainStoryboard.storyboard */,
+				5EDC9CBD15C274FE00EABCCE /* RepeatReminders.xcdatamodeld */,
+				5EA12B2F15BD1E7E0079C689 /* Supporting Files */,
+			);
+			path = Repeaters1;
+			sourceTree = "<group>";
+		};
+		5EA12B2F15BD1E7E0079C689 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E5F408A15FF205F00C8708B /* BlackRainbowCircle.png */,
+				5E5F408B15FF205F00C8708B /* RepeatersLaunchIMG.png */,
+				5E96792815F7330700330DA9 /* ui_testing */,
+				5EDC9CAA15C258B900EABCCE /* CoreDataTableViewController.h */,
+				5EDC9CAB15C258B900EABCCE /* CoreDataTableViewController.m */,
+				5EA12B3015BD1E7E0079C689 /* Repeaters-Info.plist */,
+				5EA12B3115BD1E7E0079C689 /* InfoPlist.strings */,
+				5EA12B3415BD1E7E0079C689 /* main.m */,
+				5EA2087D15F9E4A800B53933 /* Repeaters-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5EA12B2315BD1E7E0079C689 /* Repeaters1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EA12B4215BD1E7E0079C689 /* Build configuration list for PBXNativeTarget "Repeaters1" */;
+			buildPhases = (
+				5EA12B2015BD1E7E0079C689 /* Sources */,
+				5EA12B2115BD1E7E0079C689 /* Frameworks */,
+				5EA12B2215BD1E7E0079C689 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Repeaters1;
+			productName = Repeaters1;
+			productReference = 5EA12B2415BD1E7E0079C689 /* Repeaters1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5EA12B1B15BD1E7E0079C689 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Repeaters;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Hart Book";
+			};
+			buildConfigurationList = 5EA12B1E15BD1E7E0079C689 /* Build configuration list for PBXProject "Repeaters1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5EA12B1915BD1E7E0079C689;
+			productRefGroup = 5EA12B2515BD1E7E0079C689 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5EA12B2315BD1E7E0079C689 /* Repeaters1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5EA12B2215BD1E7E0079C689 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EA12B3315BD1E7E0079C689 /* InfoPlist.strings in Resources */,
+				5EA12B3C15BD1E7E0079C689 /* MainStoryboard.storyboard in Resources */,
+				5E5F408C15FF205F00C8708B /* BlackRainbowCircle.png in Resources */,
+				5E5F408D15FF205F00C8708B /* RepeatersLaunchIMG.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5EA12B2015BD1E7E0079C689 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EA12B3515BD1E7E0079C689 /* main.m in Sources */,
+				5EA12B3915BD1E7E0079C689 /* RepeatersAppDelegate.m in Sources */,
+				5EA12B3F15BD1E7E0079C689 /* DetailsViewController.m in Sources */,
+				5EDC9CAC15C258B900EABCCE /* CoreDataTableViewController.m in Sources */,
+				5EDC9CB015C25BC600EABCCE /* RepeatersTableViewController.m in Sources */,
+				5EDC9CB315C25C6400EABCCE /* EditorViewController.m in Sources */,
+				5EDC9CB615C25D6A00EABCCE /* DayViewController.m in Sources */,
+				5EDC9CB915C25EA300EABCCE /* DeadlineViewController.m in Sources */,
+				5EDC9CBC15C25F0600EABCCE /* NotifyTableViewController.m in Sources */,
+				5EDC9CBF15C274FE00EABCCE /* RepeatReminders.xcdatamodeld in Sources */,
+				5EDC9CCE15C27D0200EABCCE /* Deadline+Settings.m in Sources */,
+				5EDC9CD115C27D7200EABCCE /* Repeater+Settings.m in Sources */,
+				5E45F8AC15CA2D6C00B3AE8F /* AddRepeaterViewController.m in Sources */,
+				5E0D9DA215DCABE3004D44A5 /* Repeater.m in Sources */,
+				5E0D9DA615DCABE3004D44A5 /* Deadline.m in Sources */,
+				5E2A613F15DE1B8100E06DAC /* FormatController.m in Sources */,
+				5E5E208415E1FF1F0049AB1E /* DateBrain.m in Sources */,
+				5ED271AE15F5DF4F0080897A /* AboutRepeatersViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5EA12B3115BD1E7E0079C689 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EA12B3215BD1E7E0079C689 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5EA12B3A15BD1E7E0079C689 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EA12B3B15BD1E7E0079C689 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5EA12B4015BD1E7E0079C689 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5EA12B4115BD1E7E0079C689 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5EA12B4315BD1E7E0079C689 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Repeaters1/Repeaters-Prefix.pch";
+				INFOPLIST_FILE = "Repeaters1/Repeaters-Info.plist";
+				PRODUCT_NAME = Repeaters1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5EA12B4415BD1E7E0079C689 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Repeaters1/Repeaters-Prefix.pch";
+				INFOPLIST_FILE = "Repeaters1/Repeaters-Info.plist";
+				PRODUCT_NAME = Repeaters1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5EA12B1E15BD1E7E0079C689 /* Build configuration list for PBXProject "Repeaters1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EA12B4015BD1E7E0079C689 /* Debug */,
+				5EA12B4115BD1E7E0079C689 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EA12B4215BD1E7E0079C689 /* Build configuration list for PBXNativeTarget "Repeaters1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EA12B4315BD1E7E0079C689 /* Debug */,
+				5EA12B4415BD1E7E0079C689 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5EDC9CBD15C274FE00EABCCE /* RepeatReminders.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5EDC9CBE15C274FE00EABCCE /* RepeatReminders.xcdatamodel */,
+			);
+			currentVersion = 5EDC9CBE15C274FE00EABCCE /* RepeatReminders.xcdatamodel */;
+			path = RepeatReminders.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5EA12B1B15BD1E7E0079C689 /* Project object */;
+}
